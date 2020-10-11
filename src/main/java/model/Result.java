@@ -16,4 +16,7 @@ public class Result {
         this.source = source;
         this.seconds = seconds;
     }
+
+    public Result() {
+    }
 }
