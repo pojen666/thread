@@ -15,4 +15,9 @@ public enum ResultCode {
         this.code = code;
         this.text = text;
     }
+
+    @Override
+    public String toString() {
+        return getText();
+    }
 }
